@@ -5,9 +5,7 @@ import { Folder, ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 function FeaturedProjects() {
-    const [previewVideoUrl, setPreviewVideoUrl] = useState(
-    FEATURED_PROJECTS[0]?.videoPreview || ''
-  );
+    const [previewVideoUrl, setPreviewVideoUrl] = useState(FEATURED_PROJECTS[0]?.videoPreview || '');
   return (
     <section id="featured-projects" className="my-16">
       <h2 className="text-xl font-bold text-slate-800 dark:text-gray-200 mb-6 font-heading">

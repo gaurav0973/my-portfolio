@@ -21,7 +21,7 @@ function Header() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <header className="mb-16">
+    <header className="flex flex-col items-center">
       <div className="flex justify-between items-start">
         <div className="flex flex-col items-center text-center">
           

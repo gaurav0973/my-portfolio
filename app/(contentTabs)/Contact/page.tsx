@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="flex flex-col items-center justify-center space-y-6 py-12">
       <div className="text-center space-y-4 text-slate-700 dark:text-gray-300 leading-relaxed">
-        {"I’m always open to collaborating or talking about ideas."} <br />
+        {"I am always open to collaborating or talking about ideas."} <br />
         You can book a{" "}
         <Link
           href="https://cal.com/maurya-js/30min?overlayCalendar=true"
