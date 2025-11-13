@@ -4,8 +4,9 @@ import toast from "react-hot-toast";
 import Projects from "../(contentTabs)/Projects/page";
 import ProofOfWork from "../(contentTabs)/ProofOfWork/page";
 import Blogs from "../(contentTabs)/Blogs/page";
-import { Contact } from "lucide-react";
+
 import { TABS } from "@/constants/constants";
+import Contact from "../(contentTabs)/Contact/page";
 
 function ContentTabs() {
     const [activeTab, setActiveTab] = useState('Projects');

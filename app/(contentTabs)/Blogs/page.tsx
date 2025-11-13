@@ -20,6 +20,7 @@ function Blogs() {
         "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@gauravkmaurya09"
       );
       const data = await response.json();
+      // console.log(data.items);
       setFetchedInfo(data.items); 
     };
 
