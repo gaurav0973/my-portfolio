@@ -3,6 +3,9 @@ export const SOCIAL_LINKS = [
   { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/gaurav-maurya0973/', icon: 'linkedin' },
   { name: 'Email', url: 'mailto:gauravKmaurya09@gmail.com', icon: 'mail' },
+  { name : "LeetCode", url: 'https://leetcode.com/u/gaurav972003/', icon: 'leetcode' },
+  { name : "GeeksforGeeks", url: 'https://www.geeksforgeeks.org/user/gaurav009/', icon: 'gfg' },
+  {name : "Medium", url: 'https://medium.com/@gauravkmaurya09', icon: 'medium' }
 ];
 
 export const EMAIL = 'gauravKmaurya09@gmail.com';
