@@ -1,7 +1,7 @@
 export const SOCIAL_LINKS = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'github' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'twitter' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'linkedin' },
+  { name: 'GitHub', url: 'https://github.com/gaurav0973', icon: 'github' },
+  { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/gaurav-maurya0973/', icon: 'linkedin' },
   { name: 'Email', url: 'mailto:gauravKmaurya09@gmail.com', icon: 'mail' },
 ];
 
