@@ -9,7 +9,8 @@ function Home() {
   return (
     <div className="min-h-screen font-body flex flex-col items-center">
        <Toaster
-        position="bottom-center"
+        position="top-right"
+        
       />
       <main className="w-full px-6 sm:px-12 md:px-24 max-w-4xl py-16">
         <Header />

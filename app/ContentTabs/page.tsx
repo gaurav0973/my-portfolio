@@ -14,7 +14,8 @@ function ContentTabs() {
     if (activeTab !== tab) {
       setActiveTab(tab);
       toast(`${tab}`, {
-        icon: '🚀',
+        icon: '🍃',
+        duration: 500,
       });
     }
   };

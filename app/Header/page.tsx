@@ -16,8 +16,6 @@ const IconMap : { [key: string]: React.ComponentType } = {
 };
 function Header() {
   const { theme, setTheme } = useTheme();
-
-
   return (
     <header className="mb-16">
       <div className="flex justify-between items-start">
@@ -34,9 +32,9 @@ function Header() {
               {theme === "dark" ? <Sun /> : <Moon />}
             </Button>
           </div>
-          <h1 className="text-3xl font-bold text-slate-800 dark:text-gray-200 font-heading">Gaurav Maurya</h1>
+          <h1 className="text-3xl font-bold text-slate-800 dark:text-gray-200 font-heading">Gaurav Kumar Maurya</h1>
           <p className="mt-4 max-w-md text-slate-600 dark:text-gray-400 leading-relaxed">
-            I am a full stack web2/web3 developer with experience. I enjoy building things from scratch-from idea to production. I care a lot about writing clean, fast code and keeping things simple.
+            I am a full stack developer. I enjoy building things from scratch-from idea to production. I care a lot about writing clean, fast code and keeping things simple.
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {SOCIAL_LINKS.map(link => {

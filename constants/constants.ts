@@ -8,30 +8,52 @@ export const SOCIAL_LINKS = [
 export const EMAIL = 'gauravKmaurya09@gmail.com';
 export const TABS = ['Projects', 'POW', 'Blogs', 'Contact'];
 export const IMAGE_PLACEHOLDER = 'https://avatars.githubusercontent.com/u/151557489?s=400&u=c5e2c5aa9bf7ecdf12fb4194ec8a4afc1b8e7393&v=4';
+
 export const EXPERIENCE_DATA = [
   {
-    company: 'OWASP Foundation',
-    role: 'Google Summer of Code 2025',
-    date: 'PRESENT',
+    company: "Astraea Solutions",
+    role: "Product Tech Intern",
+    date: "Jun 2025 - Jul 2025",
+    description: `
+Built and deployed a Cyber Range module on AWS for 200+ students.
+Authored detailed 25+ page technical documentation.
+Collaborated with professors from 3 IITs to align technical solutions.
+Worked with the UI/UX team to enhance the learner experience.
+    `,
+    link : "https://www.linkedin.com/company/astraeasolutions/"
+  }
+];
+
+export const FEATURED_PROJECTS = [
+  {
+    title: 'AlgoQuest',
+    description: 'A LeetCode-Inspired Coding Platform',
+    link: 'https://campuscrush.site/',
+    videoPreview: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+    technologies: ['React', 'Node.js', 'MongoDB'],
+
   },
-   {
-    company: 'Some Startup',
-    role: 'Frontend Intern',
-    date: 'Jan 2024',
+  {
+    title: 'CampusCrush',
+    description: 'A Social Networking Platform for College Students',
+    link: 'https://github.com/gaurav0973/campusCrush-Docs',
+    videoPreview: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+    technologies: ['React', 'Node.js', 'MongoDB'],
   },
 ];
 
 export const PROJECTS_DATA = [
   {
-    title: 'GenieBox',
-    description: 'An Ai based GLSL model genreator',
-    date: 'Aug 2025',
-    category: 'Fun',
-    link: '#',
+    title: 'AlgoQuest',
+    description: ' LeetCode-Inspired Coding Platform',
+    date: 'September 2025 - Nov 2025',
+    category: 'Coding Platform',
+    link: 'https://campuscrush.site/',
+
   },
   {
-    title: 'Safka',
-    description: 'small kafka implementation from scratch in Rust',
+    title: 'CampusCrush',
+    description: 'A Social Networking Platform for College Students',
     date: 'Jun 2025',
     category: 'Web3',
     link: '#',
@@ -59,17 +81,3 @@ export const POW_DATA = [
     { id: 4, title: 'refactor: simplify user authentication logic', repo: 'auth-service', status: 'Open', lines: 300 },
 ];
 
-export const FEATURED_PROJECTS = [
-  {
-    title: 'Safka',
-    description: 'A small kafka implementation from scratch in Rust',
-    link: '#',
-    videoPreview: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
-  },
-  {
-    title: 'Not-your-simple-notion',
-    description: 'A notion like editor with real-time collaboration',
-    link: '#',
-    videoPreview: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-  },
-];
