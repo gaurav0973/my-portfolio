@@ -25,8 +25,8 @@ function ContentTabs() {
     switch (activeTab) {
       case 'Projects':
         return <Projects />;
-      case 'POW':
-        return <ProofOfWork />;
+      // case 'POW':
+      //   return <ProofOfWork />;
       case 'Blogs':
         return <Blogs />;
       case 'Contact':
