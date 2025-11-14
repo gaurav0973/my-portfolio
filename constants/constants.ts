@@ -1,3 +1,5 @@
+import { teardownTraceSubscriber } from "next/dist/build/swc/generated-native";
+
 export const SOCIAL_LINKS = [
   { name: 'GitHub', url: 'https://github.com/gaurav0973', icon: 'github' },
   { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
@@ -46,34 +48,29 @@ export const FEATURED_PROJECTS = [
 ];
 
 export const PROJECTS_DATA = [
-  {
-    title: 'AlgoQuest',
-    description: ' LeetCode-Inspired Coding Platform',
-    date: 'September 2025 - Nov 2025',
-    category: 'Coding Platform',
-    link: 'https://campuscrush.site/',
-
-  },
-  {
-    title: 'CampusCrush',
-    description: 'A Social Networking Platform for College Students',
-    date: 'Jun 2025',
-    category: 'Web3',
-    link: '#',
-  },
-  {
-    title: 'Not-your-simple-notion',
-    description: 'A notion like editor with real-time collaboration up to 5 users',
-    date: 'Dec 2024',
-    category: 'Web2',
-    link: '#',
-  },
    {
-    title: 'Another Web2 Project',
-    description: 'Description for another web2 project.',
-    date: 'Nov 2024',
-    category: 'Web2',
-    link: '#',
+    title: 'Unitrade-AI driven Marketplace',
+    description: 'An AI-Driven Marketplace for Buying and Selling Used Products',
+    technology : ["React", "Node.js", "MongoDB"],
+    link: 'https://github.com/gaurav0973/UniTrade-AI-driven-marketPlace',
+  },
+  {
+    title: 'Learning Full Stack Development',
+    description: 'A notion like editor with real-time collaboration up to 5 users',
+    technology : ["JavaScript", "React", "Node.js"],
+    link: "https://github.com/gaurav0973/fullStackJourney009"
+  },
+  {
+    title: 'StackFlow Inspired Q&A Platform',
+    description: 'A Q&A Platform Inspired by StackOverflow',
+    technology : ["React", "Node.js", "MongoDB"],
+    link: 'https://github.com/gaurav0973/stackoverflow-inspired',
+  },
+  {
+    title: 'devEvents',
+    description: 'A Social Networking Platform for College Students',
+    technology : ["React", "Node.js", "MongoDB"],
+    link: "https://github.com/gaurav0973/devEvents"
   },
 ];
 
