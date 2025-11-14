@@ -11,7 +11,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const EMAIL = 'gauravKmaurya09@gmail.com';
-export const TABS = ['Projects', 'POW', 'Blogs', 'Contact'];
+export const TABS = ['Projects', 'Blogs', 'Contact']; //['Projects', 'POW', 'Blogs', 'Contact'];
 export const IMAGE_PLACEHOLDER = 'https://avatars.githubusercontent.com/u/151557489?s=400&u=c5e2c5aa9bf7ecdf12fb4194ec8a4afc1b8e7393&v=4';
 
 export const EXPERIENCE_DATA = [
