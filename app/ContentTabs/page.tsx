@@ -2,7 +2,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 import Projects from "../(contentTabs)/Projects/page";
-import ProofOfWork from "../(contentTabs)/ProofOfWork/page";
+// import ProofOfWork from "../(contentTabs)/ProofOfWork/page";
 import Blogs from "../(contentTabs)/Blogs/page";
 
 import { TABS } from "@/constants/constants";

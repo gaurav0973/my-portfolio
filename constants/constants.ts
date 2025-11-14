@@ -1,5 +1,6 @@
-import { teardownTraceSubscriber } from "next/dist/build/swc/generated-native";
-
+// Header Content
+export const NAME = 'Gaurav Kumar Maurya';
+export const BIO = "I am a full stack developer. I enjoy building things from scratch—from idea to production. I care a lot about writing clean, fast code and keeping things simple.";
 export const SOCIAL_LINKS = [
   { name: 'GitHub', url: 'https://github.com/gaurav0973', icon: 'github' },
   { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
@@ -9,7 +10,6 @@ export const SOCIAL_LINKS = [
   { name : "GeeksforGeeks", url: 'https://www.geeksforgeeks.org/user/gaurav009/', icon: 'gfg' },
   {name : "Medium", url: 'https://medium.com/@gauravkmaurya09', icon: 'medium' }
 ];
-
 export const EMAIL = 'gauravKmaurya09@gmail.com';
 export const TABS = ['Projects', 'Blogs', 'Contact']; //['Projects', 'POW', 'Blogs', 'Contact'];
 export const IMAGE_PLACEHOLDER = 'https://avatars.githubusercontent.com/u/151557489?s=400&u=c5e2c5aa9bf7ecdf12fb4194ec8a4afc1b8e7393&v=4';
@@ -74,10 +74,11 @@ export const PROJECTS_DATA = [
   },
 ];
 
-export const POW_DATA = [
-    { id: 1, title: 'feat: add dark mode toggle', repo: 'portfolio-v2', status: 'Open', lines: 120 },
-    { id: 2, title: 'fix: resolve cors issue on staging', repo: 'api-service', status: 'Closed', lines: 25 },
-    { id: 3, title: 'docs: update readme with deployment instructions', repo: 'internal-tool', status: 'Closed', lines: 50 },
-    { id: 4, title: 'refactor: simplify user authentication logic', repo: 'auth-service', status: 'Open', lines: 300 },
-];
+
+// export const POW_DATA = [
+//     { id: 1, title: 'feat: add dark mode toggle', repo: 'portfolio-v2', status: 'Open', lines: 120 },
+//     { id: 2, title: 'fix: resolve cors issue on staging', repo: 'api-service', status: 'Closed', lines: 25 },
+//     { id: 3, title: 'docs: update readme with deployment instructions', repo: 'internal-tool', status: 'Closed', lines: 50 },
+//     { id: 4, title: 'refactor: simplify user authentication logic', repo: 'auth-service', status: 'Open', lines: 300 },
+// ];
 

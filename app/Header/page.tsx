@@ -1,6 +1,6 @@
 "use client";
 
-import { IMAGE_PLACEHOLDER, SOCIAL_LINKS } from "@/constants/constants";
+import { BIO, IMAGE_PLACEHOLDER, NAME, SOCIAL_LINKS } from "@/constants/constants";
 import { Github, Twitter, Linkedin, Mail, CodeXml, Braces, Rss, Moon, Sun } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,13 +46,12 @@ function Header() {
 
           {/* Name */}
           <h1 className="text-3xl font-bold text-slate-800 dark:text-gray-200 font-heading">
-            Gaurav Kumar Maurya
+            {NAME}
           </h1>
 
           {/* Bio */}
           <p className="mt-4 max-w-md text-slate-600 dark:text-gray-400 leading-relaxed">
-            I am a full stack developer. I enjoy building things from scratch—from idea to production.
-            I care a lot about writing clean, fast code and keeping things simple.
+            {BIO}
           </p>
 
           {/* Social Links */}

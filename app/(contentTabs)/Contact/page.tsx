@@ -1,4 +1,5 @@
 "use client";
+import { EMAIL } from "@/constants/constants";
 import Link from "next/link";
 
 function Contact() {
@@ -26,10 +27,10 @@ function Contact() {
         </Link>{" "}
         or mail me at{" "}
         <a
-          href="mailto:gauravkmaurya09@gmail.com"
+          href={`mailto:${EMAIL}`}
           className="text-green-600 dark:text-green-400 underline hover:opacity-80"
         >
-          gauravkmaurya09@gmail.com
+          {EMAIL}
         </a>.
       </div>
     </div>
