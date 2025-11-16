@@ -1,6 +1,8 @@
 // Header Content
+
 export const NAME = 'Gaurav Kumar Maurya';
 export const BIO = "I am a full stack developer. I enjoy building things from scratch—from idea to production. I care a lot about writing clean, fast code and keeping things simple.";
+export const RESUME_URL = "https://drive.google.com/file/d/1FHANxOxCu5daSo_AeKVlsTe9b9KQ2L3P/view?usp=sharing"
 export const SOCIAL_LINKS = [
   { name: 'GitHub', url: 'https://github.com/gaurav0973', icon: 'github' },
   { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },

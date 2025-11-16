@@ -1,6 +1,6 @@
 "use client";
 
-import { BIO, IMAGE_PLACEHOLDER, NAME, SOCIAL_LINKS } from "@/constants/constants";
+import { BIO, IMAGE_PLACEHOLDER, NAME, RESUME_URL, SOCIAL_LINKS } from "@/constants/constants";
 import { Github, Twitter, Linkedin, Mail, CodeXml, Braces, Rss, Moon, Sun } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -41,6 +41,14 @@ function Header() {
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
               {theme === "dark" ? <Sun /> : <Moon />}
+            </Button>
+            <Button
+              variant="outline"
+              asChild
+            >
+              <a href={RESUME_URL} target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
             </Button>
           </div>
 
