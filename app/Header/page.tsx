@@ -1,5 +1,4 @@
 "use client";
-
 import { BIO, IMAGE_PLACEHOLDER, NAME, RESUME_URL, SOCIAL_LINKS } from "@/constants/constants";
 import { Github, Twitter, Linkedin, Mail, CodeXml, Braces, Rss, Moon, Sun } from "lucide-react";
 import Image from "next/image";
