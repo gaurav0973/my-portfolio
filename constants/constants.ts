@@ -36,7 +36,7 @@ export const FEATURED_PROJECTS = [
     title: 'AlgoQuest',
     description: 'A LeetCode-Inspired Coding Platform',
     link: 'https://campuscrush.site/',
-    videoPreview: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+    videoPreview: 'https://drive.google.com/file/d/1rW7_VtK4t6kRQiyD2WZxg4dlpZ1IOW4Y/view?usp=sharing',
     technologies: ['React', 'Node.js', 'MongoDB'],
 
   },
@@ -44,7 +44,7 @@ export const FEATURED_PROJECTS = [
     title: 'CampusCrush',
     description: 'A Social Networking Platform for College Students',
     link: 'https://github.com/gaurav0973/campusCrush-Docs',
-    videoPreview: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+    videoPreview: 'https://drive.google.com/file/d/10EnQnhdxDLoC6JyuQio02ZrcVdvWrRyy/view?usp=sharing',
     technologies: ['React', 'Node.js', 'MongoDB'],
   },
 ];
