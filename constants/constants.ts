@@ -44,7 +44,7 @@ export const FEATURED_PROJECTS = [
     title: 'CampusCrush',
     description: 'A Social Networking Platform for College Students',
     link: 'https://github.com/gaurav0973/campusCrush-Docs',
-    videoPreview: 'https://drive.google.com/file/d/10EnQnhdxDLoC6JyuQio02ZrcVdvWrRyy/view?usp=sharing',
+    videoPreview: 'https://res.cloudinary.com/cloudgaurav009/video/upload/v1763737689/campusCrush_jovrnk.mp4',
     technologies: ['React', 'Node.js', 'MongoDB'],
   },
 ];
