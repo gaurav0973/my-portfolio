@@ -30,24 +30,23 @@ Worked with the UI/UX team to enhance the learner experience.
     link : "https://www.linkedin.com/company/astraeasolutions/"
   }
 ];
-
 export const FEATURED_PROJECTS = [
   {
     title: 'AlgoQuest',
     description: 'A LeetCode-Inspired Coding Platform',
     link: 'https://campuscrush.site/',
-    videoPreview: 'https://drive.google.com/file/d/1rW7_VtK4t6kRQiyD2WZxg4dlpZ1IOW4Y/view?usp=sharing',
+    videoPreview: 'https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/algoQuest_uqcmoc.mp4',
     technologies: ['React', 'Node.js', 'MongoDB'],
-
   },
   {
     title: 'CampusCrush',
     description: 'A Social Networking Platform for College Students',
     link: 'https://github.com/gaurav0973/campusCrush-Docs',
-    videoPreview: 'https://res.cloudinary.com/cloudgaurav009/video/upload/v1763737689/campusCrush_jovrnk.mp4',
+    videoPreview: 'https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/campusCrush_jovrnk.mp4',
     technologies: ['React', 'Node.js', 'MongoDB'],
   },
 ];
+
 
 export const PROJECTS_DATA = [
    {
