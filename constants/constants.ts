@@ -5,7 +5,7 @@ export const BIO = "I am a full stack developer. I enjoy building things from sc
 export const RESUME_URL = "https://drive.google.com/file/d/1Jb5TDC992izXF58nWm3SnPzGjjRqgjR6/view?usp=sharing"
 export const SOCIAL_LINKS = [
   { name: 'GitHub', url: 'https://github.com/gaurav0973', icon: 'github' },
-  // { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
+  { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/gaurav-maurya0973/', icon: 'linkedin' },
   { name: 'Email', url: 'mailto:gauravKmaurya09@gmail.com', icon: 'mail' },
   { name : "LeetCode", url: 'https://leetcode.com/u/gaurav972003/', icon: 'leetcode' },
