@@ -71,9 +71,18 @@ export const FEATURED_PROJECTS = [
     description:
       "This is the repository for the Continuous Skilling UPSCALE projects where I learn new tools and technologies by building small projects.",
     link: "https://github.com/gaurav0973/ChaiCode-2.0",
-    videoPreview:
-      null,
-    technologies: ["React", "Node.js", "MongoDB", "Kafka", "Socket.IO", "Express.js", "Core CSS", "HTML", "JavaScript"],
+    videoPreview: "https://youtu.be/3FDTuZ0U_tA?si=rhnMRk1Wx1BJ2nhf",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Kafka",
+      "Socket.IO",
+      "Express.js",
+      "Core CSS",
+      "HTML",
+      "JavaScript",
+    ],
   },
 ];
 
