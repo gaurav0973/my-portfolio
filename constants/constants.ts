@@ -2,7 +2,8 @@
 
 export const NAME = 'Gaurav Kumar Maurya';
 export const BIO = "I am a full stack developer. I enjoy building things from scratch—from idea to production. I care a lot about writing clean, fast code and keeping things simple.";
-export const RESUME_URL = "https://drive.google.com/file/d/1Jb5TDC992izXF58nWm3SnPzGjjRqgjR6/view?usp=sharing"
+export const RESUME_URL =
+  "https://drive.google.com/file/d/13usoPLUApv_WbdUAdCRGujiiBuuuZd9m/view?usp=sharing";
 export const SOCIAL_LINKS = [
   { name: 'GitHub', url: 'https://github.com/gaurav0973', icon: 'github' },
   { name: 'Twitter', url: 'https://x.com/gauravkmaurya09', icon: 'twitter' },
@@ -12,7 +13,7 @@ export const SOCIAL_LINKS = [
   { name : "GeeksforGeeks", url: 'https://www.geeksforgeeks.org/user/gaurav009/', icon: 'gfg' },
   {name : "Medium", url: 'https://medium.com/@gauravkmaurya09', icon: 'medium' }
 ];
-export const EMAIL = 'gauravKmaurya09@gmail.com';
+export const EMAIL = "gaurav.maurya26.dev@gmail.com";
 export const TABS = ['Projects', 'Blogs', 'Contact']; //['Projects', 'POW', 'Blogs', 'Contact'];
 export const IMAGE_PLACEHOLDER = 'https://avatars.githubusercontent.com/u/151557489?s=400&u=c5e2c5aa9bf7ecdf12fb4194ec8a4afc1b8e7393&v=4';
 
@@ -32,18 +33,47 @@ Worked with the UI/UX team to enhance the learner experience.
 ];
 export const FEATURED_PROJECTS = [
   {
-    title: 'AlgoQuest',
-    description: 'A LeetCode-Inspired Coding Platform',
-    link: 'https://campuscrush.site/',
-    videoPreview: 'https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/algoQuest_uqcmoc.mp4',
-    technologies: ['React', 'Node.js', 'MongoDB'],
+    title: "AlgoQuest",
+    description: "A LeetCode-Inspired Coding Platform",
+    link: "https://github.com/gaurav0973/AlgoQuest",
+    videoPreview:
+      "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/algoQuest_uqcmoc.mp4",
+    technologies: ["React", "Node.js", "MongoDB"],
   },
   {
-    title: 'CampusCrush',
-    description: 'A Social Networking Platform for College Students',
-    link: 'https://github.com/gaurav0973/campusCrush-Docs',
-    videoPreview: 'https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/campusCrush_jovrnk.mp4',
-    technologies: ['React', 'Node.js', 'MongoDB'],
+    title: "Real-Time Location Tracking System (Kafka + Socket.IO)",
+    description:
+      "This project demonstrates a real-time location tracking system using:",
+    link: "https://github.com/gaurav0973/Real-Time-Location-Tracking-using-kafka-websockets",
+    videoPreview:
+      "https://www.linkedin.com/posts/gaurav-maurya0973_kafka-systemdesign-backend-ugcPost-7455341365527351297-_2so?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJTGsBbKTwNpYgzG8v5vAq0f9CsDvt5dg",
+    technologies: ["Node.js", "Kafka", "Socket.IO", "Express.js"],
+  },
+  {
+    title: "chaiUi",
+    description:
+      "A lightweight utility-first styling library that runs directly in the browser. Warm theme language, clean token system, no build pipeline required.",
+    link: "https://chai-ui-umber.vercel.app/",
+    videoPreview:
+      "https://x.com/gauravkmaurya09/status/2035656480293294195?s=20",
+    technologies: ["Core CSS", "Node.js", "HTML", "JavaScript"],
+  },
+  {
+    title: "CampusCrush",
+    description: "A Social Networking Platform for College Students",
+    link: "https://github.com/gaurav0973/campusCrush-Docs",
+    videoPreview:
+      "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/campusCrush_jovrnk.mp4",
+    technologies: ["React", "Node.js", "MongoDB"],
+  },
+  {
+    title: "Continuous Skilling UPSCALE",
+    description:
+      "This is the repository for the Continuous Skilling UPSCALE projects where I learn new tools and technologies by building small projects.",
+    link: "https://github.com/gaurav0973/ChaiCode-2.0",
+    videoPreview:
+      null,
+    technologies: ["React", "Node.js", "MongoDB", "Kafka", "Socket.IO", "Express.js", "Core CSS", "HTML", "JavaScript"],
   },
 ];
 
