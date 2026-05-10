@@ -35,28 +35,10 @@ export const FEATURED_PROJECTS = [
   {
     title: "AlgoQuest",
     description: "A LeetCode-Inspired Coding Platform",
-    link: "https://github.com/gaurav0973/AlgoQuest",
+    link: "https://campuscrush.site/",
     videoPreview:
       "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/algoQuest_uqcmoc.mp4",
     technologies: ["React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Real-Time Location Tracking System (Kafka + Socket.IO)",
-    description:
-      "This project demonstrates a real-time location tracking system using:",
-    link: "https://github.com/gaurav0973/Real-Time-Location-Tracking-using-kafka-websockets",
-    videoPreview:
-      "https://www.linkedin.com/posts/gaurav-maurya0973_kafka-systemdesign-backend-ugcPost-7455341365527351297-_2so?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJTGsBbKTwNpYgzG8v5vAq0f9CsDvt5dg",
-    technologies: ["Node.js", "Kafka", "Socket.IO", "Express.js"],
-  },
-  {
-    title: "chaiUi",
-    description:
-      "A lightweight utility-first styling library that runs directly in the browser. Warm theme language, clean token system, no build pipeline required.",
-    link: "https://chai-ui-umber.vercel.app/",
-    videoPreview:
-      "https://x.com/gauravkmaurya09/status/2035656480293294195?s=20",
-    technologies: ["Core CSS", "Node.js", "HTML", "JavaScript"],
   },
   {
     title: "CampusCrush",
@@ -66,26 +48,7 @@ export const FEATURED_PROJECTS = [
       "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/campusCrush_jovrnk.mp4",
     technologies: ["React", "Node.js", "MongoDB"],
   },
-  {
-    title: "Continuous Skilling UPSCALE",
-    description:
-      "This is the repository for the Continuous Skilling UPSCALE projects where I learn new tools and technologies by building small projects.",
-    link: "https://github.com/gaurav0973/ChaiCode-2.0",
-    videoPreview: "https://youtu.be/3FDTuZ0U_tA?si=rhnMRk1Wx1BJ2nhf",
-    technologies: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Kafka",
-      "Socket.IO",
-      "Express.js",
-      "Core CSS",
-      "HTML",
-      "JavaScript",
-    ],
-  },
 ];
-
 
 export const PROJECTS_DATA = [
    {

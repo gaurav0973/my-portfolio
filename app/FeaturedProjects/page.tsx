@@ -5,8 +5,8 @@ import { Folder, ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 function FeaturedProjects() {
-  const [previewVideoUrl, setPreviewVideoUrl] = useState<string | null>(
-    FEATURED_PROJECTS[0]?.videoPreview ?? null,
+  const [previewVideoUrl, setPreviewVideoUrl] = useState(
+    FEATURED_PROJECTS[0]?.videoPreview || "",
   );
   return (
     <section id="featured-projects" className="my-16">
@@ -18,9 +18,7 @@ function FeaturedProjects() {
           {FEATURED_PROJECTS.map((project, index) => (
             <div
               key={index}
-              onMouseEnter={() =>
-                setPreviewVideoUrl(project.videoPreview ?? null)
-              }
+              onMouseEnter={() => setPreviewVideoUrl(project.videoPreview)}
               className="block group p-2 -m-2 rounded-md hover:bg-slate-200/50 dark:hover:bg-gray-800/50 transition-colors duration-200"
             >
               <Link
