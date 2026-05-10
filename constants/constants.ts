@@ -36,8 +36,6 @@ export const FEATURED_PROJECTS = [
     title: "AlgoQuest",
     description: "A LeetCode-Inspired Coding Platform",
     link: "https://github.com/gaurav0973/AlgoQuest",
-    videoPreview:
-      "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/algoQuest_uqcmoc.mp4",
     technologies: ["React", "Node.js", "MongoDB"],
   },
   {
@@ -45,44 +43,52 @@ export const FEATURED_PROJECTS = [
     description:
       "This project demonstrates a real-time location tracking system using:",
     link: "https://github.com/gaurav0973/Real-Time-Location-Tracking-using-kafka-websockets",
-    videoPreview:
-      "https://www.linkedin.com/posts/gaurav-maurya0973_kafka-systemdesign-backend-ugcPost-7455341365527351297-_2so?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJTGsBbKTwNpYgzG8v5vAq0f9CsDvt5dg",
     technologies: ["Node.js", "Kafka", "Socket.IO", "Express.js"],
+  },
+  {
+    title: "chaiUi",
+    description:
+      "A lightweight utility-first styling library that runs directly in the browser. Warm theme language, clean token system, no build pipeline required.",
+    link: "https://chai-ui-umber.vercel.app/",
+    technologies: ["Core CSS", "Node.js", "HTML", "JavaScript"],
+  },
+  {
+    title: "OIDC and OAuth with Google and GitHub",
+    description:
+      "Here I implemented OIDC and OAuth authentication flows using Google and GitHub as identity providers. This project demonstrates how to securely authenticate users and manage sessions in a web application.",
+    link: "https://github.com/gaurav0973/Oauth-google-github",
+    technologies: ["Node.js", "Express.js", "Google OAuth", "GitHub OAuth"],
   },
   {
     title: "CampusCrush",
     description: "A Social Networking Platform for College Students",
     link: "https://github.com/gaurav0973/campusCrush-Docs",
-    videoPreview:
-      "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/campusCrush_jovrnk.mp4",
     technologies: ["React", "Node.js", "MongoDB"],
   },
 ];
 
 export const PROJECTS_DATA = [
-   {
-    title: 'Unitrade-AI driven Marketplace',
-    description: 'An AI-Driven Marketplace for Buying and Selling Used Products',
-    technology : ["React", "Node.js", "MongoDB"],
-    link: 'https://github.com/gaurav0973/UniTrade-AI-driven-marketPlace',
+  {
+    title: "Unitrade-AI driven Marketplace",
+    description:
+      "An AI-Driven Marketplace for Buying and Selling Used Products",
+    technology: ["React", "Node.js", "MongoDB"],
+    link: "https://github.com/gaurav0973/UniTrade-AI-driven-marketPlace",
   },
   {
-    title: 'Learning Full Stack Development',
-    description: 'A notion like editor with real-time collaboration up to 5 users',
-    technology : ["JavaScript", "React", "Node.js"],
-    link: "https://github.com/gaurav0973/fullStackJourney009"
-  },
-  {
-    title: 'StackFlow Inspired Q&A Platform',
-    description: 'A Q&A Platform Inspired by StackOverflow',
-    technology : ["React", "Node.js", "MongoDB"],
-    link: 'https://github.com/gaurav0973/stackoverflow-inspired',
-  },
-  {
-    title: 'devEvents',
-    description: 'A Social Networking Platform for College Students',
-    technology : ["React", "Node.js", "MongoDB"],
-    link: "https://github.com/gaurav0973/devEvents"
+    title: "Continuous Skilling UPSCALE",
+    description:
+      "This is the repository for the Continuous Skilling UPSCALE projects where I learn new tools and technologies by building small projects",
+    technology: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Socket.IO",
+      "Kafka",
+    ],
+    link: "https://github.com/gaurav0973/ChaiCode-2.0",
   },
 ];
 
