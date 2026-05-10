@@ -35,10 +35,19 @@ export const FEATURED_PROJECTS = [
   {
     title: "AlgoQuest",
     description: "A LeetCode-Inspired Coding Platform",
-    link: "https://campuscrush.site/",
+    link: "https://github.com/gaurav0973/AlgoQuest",
     videoPreview:
       "https://res.cloudinary.com/cloudgaurav009/video/upload/f_auto,vc_auto,q_auto/algoQuest_uqcmoc.mp4",
     technologies: ["React", "Node.js", "MongoDB"],
+  },
+  {
+    title: "Real-Time Location Tracking System (Kafka + Socket.IO)",
+    description:
+      "This project demonstrates a real-time location tracking system using:",
+    link: "https://github.com/gaurav0973/Real-Time-Location-Tracking-using-kafka-websockets",
+    videoPreview:
+      "https://www.linkedin.com/posts/gaurav-maurya0973_kafka-systemdesign-backend-ugcPost-7455341365527351297-_2so?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJTGsBbKTwNpYgzG8v5vAq0f9CsDvt5dg",
+    technologies: ["Node.js", "Kafka", "Socket.IO", "Express.js"],
   },
   {
     title: "CampusCrush",
