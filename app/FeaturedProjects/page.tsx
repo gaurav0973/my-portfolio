@@ -1,11 +1,13 @@
-"use client"
-import { FEATURED_PROJECTS } from "@/constants/constants"
+"use client";
+import { FEATURED_PROJECTS } from "@/constants/constants";
 import { useState } from "react";
 import { Folder, ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 function FeaturedProjects() {
-    const [previewVideoUrl, setPreviewVideoUrl] = useState(FEATURED_PROJECTS[0]?.videoPreview || '');
+  const [previewVideoUrl, setPreviewVideoUrl] = useState<string | null>(
+    FEATURED_PROJECTS[0]?.videoPreview ?? null,
+  );
   return (
     <section id="featured-projects" className="my-16">
       <h2 className="text-xl font-bold text-slate-800 dark:text-gray-200 mb-6 font-heading">
@@ -16,7 +18,9 @@ function FeaturedProjects() {
           {FEATURED_PROJECTS.map((project, index) => (
             <div
               key={index}
-              onMouseEnter={() => setPreviewVideoUrl(project.videoPreview)}
+              onMouseEnter={() =>
+                setPreviewVideoUrl(project.videoPreview ?? null)
+              }
               className="block group p-2 -m-2 rounded-md hover:bg-slate-200/50 dark:hover:bg-gray-800/50 transition-colors duration-200"
             >
               <Link
@@ -30,8 +34,8 @@ function FeaturedProjects() {
                     <span
                       className={`inline-block h-3 w-3 rounded-full transition-colors ${
                         previewVideoUrl === project.videoPreview
-                          ? 'bg-green-500'
-                          : 'bg-slate-400 dark:bg-gray-600'
+                          ? "bg-green-500"
+                          : "bg-slate-400 dark:bg-gray-600"
                       }`}
                     ></span>
                   </div>
@@ -49,11 +53,15 @@ function FeaturedProjects() {
                           {project.description}
                         </p>
                         <div className="mt-2 flex flex-wrap gap-2">
-                          {project.technologies && project.technologies.map((tech, techIndex) => (
-                            <span key={techIndex} className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full px-2 py-1">
-                              {tech}
-                            </span>
-                          ))}
+                          {project.technologies &&
+                            project.technologies.map((tech, techIndex) => (
+                              <span
+                                key={techIndex}
+                                className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full px-2 py-1"
+                              >
+                                {tech}
+                              </span>
+                            ))}
                         </div>
                       </div>
                     </div>
@@ -87,6 +95,6 @@ function FeaturedProjects() {
       </div>
       <hr className="my-12 border-slate-200 dark:border-gray-800" />
     </section>
-  )
+  );
 }
-export default FeaturedProjects
+export default FeaturedProjects;
